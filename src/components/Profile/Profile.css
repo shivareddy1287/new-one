@@ -1,0 +1,148 @@
+.cs_div_profile {
+  display: flex;
+  /* background-color: aqua; */
+  /* margin: 50px; */
+}
+.cs_content_img_div_profile {
+  width: 100%;
+}
+
+.cs_content_div_profile {
+  display: flex;
+  gap: 2rem;
+  /* width: 100%; */
+  background-color: #f1f3f6;
+  /* flex-wrap: wrap; */
+  padding: 2rem;
+  /* background-color: black; */
+  /* justify-content: flex-start; */
+}
+.cs_card_content_div_profile {
+  /* display: flex; */
+  /* height: 20rem; */
+
+  margin: 2rem 1rem;
+  background-color: #fff;
+  box-shadow: 0rem 0rem 0rem rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+}
+
+.cs_card_head_profile {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.cs_card_content_div_profile {
+  padding-bottom: 3rem;
+}
+
+.cs_card_each_data_div_profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 1rem;
+  color: rgb(62, 59, 59);
+  font-size: 1rem;
+
+  border-bottom: 1px solid rgba(188, 152, 212, 0.399);
+}
+
+.cs_card_data_each_head_profile {
+  /* padding: 0.2rem 0.5rem; */
+  font-weight: 100;
+}
+
+.cs_total_content_profile {
+  width: 100%;
+}
+
+/* edit profile */
+
+.cs_edit_link {
+  font-size: 2rem;
+}
+
+.cs_edit_div {
+  width: 100%;
+  background-color: #f2eaea;
+}
+.cs_edit_employee_head_div {
+  border-top: 1px solid rgba(116, 123, 151, 0.304);
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  padding: 1.4rem 1.4rem 1.4rem 3rem;
+  background-color: #fff;
+  /* border-bottom: 1px solid rgba(188, 152, 212, 0.399); */
+  box-shadow: 0rem 0.4rem 2rem rgba(0, 0, 0, 0.078);
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.6rem;
+  align-items: center;
+  /* position: fixed; */
+}
+.cs_font_icons {
+  font-size: 1.6rem;
+  fill: rgb(88, 88, 164);
+}
+.cs_edit_employee_head {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.cs_edit_form_div {
+  background-color: #fff;
+  margin: 2rem;
+  padding: 2rem 2rem;
+}
+.cs_edit_side_head {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: black;
+}
+.cs_edit_left_right_div {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 3rem;
+  /* background-color: yellow; */
+}
+.cs_edit_left_input_right_input {
+  /* background-color: red; */
+  width: 100%;
+}
+
+.cs_edit_input_div {
+  display: flex;
+
+  margin: 1rem 0 0 2rem;
+}
+.cs_edit_left_input {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(100, 92, 92);
+  padding: 1rem 0 0 0;
+}
+
+.cs_view_right_input {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(100, 92, 92);
+  padding: 1rem 0 0 1.5rem;
+}
+
+.cs_edit_right_input {
+  border: none;
+  font-size: 1.7rem;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 1rem;
+  width: 60%;
+  /* border-bottom: 1px solid rgba(147, 131, 196, 0.504); */
+}
+
+.cs_edit_right_input:focus {
+  background-color: #f8f8f8;
+
+  /* border: none; */
+  outline: none;
+  border-bottom: 1px solid rgba(147, 131, 196, 0.504);
+}

@@ -1,0 +1,44 @@
+.bl_holyday-tabel {
+  width: 100%;
+  /* margin: 0 5%; */
+  caret-color: transparent;
+}
+
+.bl_holyday-tabel table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bl_holyday-tabel input {
+  font-size: 40px;
+  height: 15px;
+  width: 15px;
+}
+
+.bl_holyday-tabel th,
+.bl_holyday-tabel td {
+  width: calc(100% / 5);
+  padding: 8px;
+  height: 30px;
+  text-align: start;
+  border-bottom: 0.1px solid #d0d0d0;
+}
+
+.bl_holyday-tabel thead th,
+.bl_holyday-tabel tr {
+  /* background-color: aqua; */
+}
+
+.bl_holyday-tabel_avatar_tab {
+  /* background-color: aqua; */
+  height: 60px;
+  border-bottom: 0.1px solid #d0d0d0;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+}
+.bl_tabel_dots {
+  /* background-color: #d0d0d0; */
+  width: 45px;
+  text-align: center;
+}

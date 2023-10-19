@@ -1,0 +1,139 @@
+.bl-routes-path {
+  /* margin-top: 3.4rem; */
+  height: 92.5vh;
+  width: 100%;
+  overflow: auto;
+}
+
+/* //button  */
+
+.button {
+  padding: 0.4em 0.6em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  /* letter-spacing: 5px; */
+  /* text-transform: uppercase; */
+  color: #2c9caf;
+  cursor: pointer;
+  transition: all 200ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+  margin: 8px;
+}
+
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.02);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2c9caf;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button:hover::before {
+  width: 250%;
+}
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center,
+.e-quick-popup-wrapper.e-device {
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+#preview {
+  background: transparent
+    url("https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png")
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left),
+.e-input-group.e-success:not(.e-float-icon-left),
+.e-input-group.e-warning:not(.e-float-icon-left),
+.e-input-group.e-error:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
+  border: none;
+}
+
+/* Apply basic styling to the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+  background-color: #fff;
+}
+
+/* Style the table header */
+th {
+  background-color: #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style the table data cells */
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Apply alternate row background color */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Highlight the header row */
+thead {
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}

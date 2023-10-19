@@ -1,0 +1,27 @@
+.bl_leave-applications_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(82, 131, 173);
+  /* background-color: #f9fafc; */
+  height: 60px;
+  width: 100%;
+}
+.bl_leave-applications_header select {
+  height: 30px;
+  width: 200px;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+.bl_leave-applications_header span {
+  font-size: 30px;
+  /* padding-bottom: 20px; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  cursor: pointer;
+}
